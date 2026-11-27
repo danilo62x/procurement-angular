@@ -1,0 +1,857 @@
+{
+  "brand": "Suprir",
+
+  "common": {
+    "actions": "Acciones",
+    "all": "Todos",
+    "cancel": "Cancelar",
+    "category": "Categoría",
+    "clearFilters": "Limpiar filtros",
+    "delete": "Eliminar",
+    "error": "No se pudo completar. Revisa los datos e inténtalo otra vez.",
+    "guest": "Invitado",
+    "next": "Siguiente",
+    "noResults": "Sin resultados",
+    "open": "Abrir",
+    "previous": "Anterior",
+    "save": "Guardar",
+    "search": "Buscar",
+    "status": "Situación",
+    "theme": "Tema",
+    "viewAll": "Ver todo"
+  },
+
+  "nav": {
+    "home": "Inicio",
+    "opportunities": "Oportunidades",
+    "signup": "Registro de proveedor",
+    "policy": "Política de compras",
+    "login": "Entrar",
+    "dashboard": "Área de compras",
+    "becomeSupplier": "Quiero proveer"
+  },
+
+  "appNav": {
+    "purchasingSection": "Compras",
+    "registrySection": "Registros",
+    "settingsSection": "Ajustes",
+    "dashboard": "Resumen",
+    "requests": "Requisiciones",
+    "quotes": "Cotizaciones",
+    "orders": "Pedidos",
+    "suppliers": "Proveedores",
+    "settings": "Configuración",
+    "logout": "Salir",
+    "collapse": "Contraer menú",
+    "toggleSidebar": "Abrir o cerrar el menú",
+    "notifications": "Pendientes",
+    "viewSite": "Ver el portal",
+    "pendingTitle": "Cola de aprobación",
+    "pendingCount_one": "{{count}} requisición esperando",
+    "pendingCount_other": "{{count}} requisiciones esperando",
+    "openPending": "Abrir la cola",
+    "actingAs": "Facultad de {{name}}"
+  },
+
+  "roles": {
+    "solicitante": "Solicitante",
+    "comprador": "Comprador",
+    "gerente": "Gerente",
+    "diretor": "Director"
+  },
+
+  "reqStatus": {
+    "rascunho": "Borrador",
+    "aguardando-aprovacao": "Esperando aprobación",
+    "aprovada": "Aprobada",
+    "recusada": "Rechazada",
+    "em-cotacao": "En cotización",
+    "atendida": "Atendida"
+  },
+
+  "quoteStatus": {
+    "aberta": "Abierta",
+    "encerrada": "Cerrada",
+    "cancelada": "Cancelada"
+  },
+
+  "orderStatus": {
+    "emitido": "Emitido",
+    "parcial": "Recepción parcial",
+    "recebido": "Recibido",
+    "atrasado": "Atrasado",
+    "cancelado": "Cancelado"
+  },
+
+  "supplierStatus": {
+    "pendente": "Registro pendiente",
+    "homologado": "Homologado",
+    "suspenso": "Suspendido"
+  },
+
+  "units": {
+    "un_one": "unidad",
+    "un_other": "unidades",
+    "cx_one": "caja",
+    "cx_other": "cajas",
+    "pct_one": "paquete",
+    "pct_other": "paquetes",
+    "par_one": "par",
+    "par_other": "pares",
+    "resma_one": "resma",
+    "resma_other": "resmas",
+    "rolo_one": "rollo",
+    "rolo_other": "rollos",
+    "lata_one": "lata",
+    "lata_other": "latas",
+    "galao_one": "galón",
+    "galao_other": "galones",
+    "fardo_one": "fardo",
+    "fardo_other": "fardos",
+    "bobina_one": "bobina",
+    "bobina_other": "bobinas",
+    "visita_one": "visita",
+    "visita_other": "visitas",
+    "servico_one": "servicio",
+    "servico_other": "servicios",
+    "turma_one": "grupo",
+    "turma_other": "grupos"
+  },
+
+  "terms": {
+    "a-vista": "Al contado",
+    "d15": "15 días",
+    "d28": "28 días",
+    "d30-60": "30 y 60 días",
+    "d30-60-90": "30, 60 y 90 días"
+  },
+
+  "docs": {
+    "cnd-federal": "Certificado de no adeudo federal",
+    "fgts": "Certificado de regularidad del fondo laboral",
+    "contrato-social": "Escritura constitutiva"
+  },
+
+  "alerts": {
+    "count_one": "{{count}} pendiente",
+    "count_other": "{{count}} pendientes",
+    "empty": "Nada requiere atención ahora.",
+    "lateOrder": "Pedido {{code}} atrasado",
+    "lateOrderDetail_one": "{{supplier}} — {{count}} día de atraso",
+    "lateOrderDetail_other": "{{supplier}} — {{count}} días de atraso",
+    "needsApproval": "La requisición {{code}} espera firma",
+    "needsApprovalDetail": "Falta el nivel {{role}} — {{value}}",
+    "quoteClosing": "La cotización {{code}} está por cerrar",
+    "quoteClosingDetail_one": "Cierra en {{count}} día",
+    "quoteClosingDetail_other": "Cierra en {{count}} días"
+  },
+
+  "auth": {
+    "loginTitle": "Entrar al área de compras",
+    "loginSubtitle": "Sigue las requisiciones, cotizaciones y pedidos del departamento.",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "remember": "Mantener la sesión",
+    "forgot": "Olvidé la contraseña",
+    "loginCta": "Entrar",
+    "loggingIn": "Entrando…",
+    "loginError": "Revisa el correo y la contraseña e inténtalo otra vez.",
+    "loginSuccess": "Bienvenida de vuelta.",
+    "noAccount": "¿Aún no tienes acceso?",
+    "registerCta": "Crear cuenta",
+    "demoTitle": "Cuenta de demostración",
+    "demoHint": "Cualquier correo y contraseña entran en esta demostración.",
+    "registerTitle": "Crear cuenta de compras",
+    "registerSubtitle": "Arma tu departamento de compras en pocos minutos.",
+    "name": "Nombre completo",
+    "organization": "Empresa",
+    "terms": "He leído y acepto la política de compras y la política de privacidad.",
+    "registerSuccess": "Cuenta creada. Buenas compras.",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "loginLink": "Entrar"
+  },
+
+  "cookie": {
+    "title": "Este portal usa cookies",
+    "desc": "Guardamos preferencias de idioma y tema para mejorar tu visita.",
+    "policy": "Saber más",
+    "accept": "Aceptar",
+    "decline": "Rechazar"
+  },
+
+  "landing": {
+    "footer": {
+      "tagline": "El portal de proveedores de Suprir: cotizaciones abiertas, reglas claras y pago en el plazo acordado.",
+      "rights": "Todos los derechos reservados.",
+      "channel": "Canal de integridad"
+    }
+  },
+
+  "home": {
+    "hero": {
+      "badge": "Portal del proveedor",
+      "title": "Vende a Suprir con reglas claras y plazos acordados",
+      "subtitle": "Registra tu empresa, recibe invitaciones a las cotizaciones de tu categoría y envía propuestas por el portal. Sin intermediarios y sin costo.",
+      "register": "Registrar mi empresa",
+      "opportunities": "Ver oportunidades",
+      "free": "Registro gratuito",
+      "integrity": "Competencia auditada",
+      "openNow": "Cotizaciones abiertas ahora",
+      "openCount_one": "{{count}} oportunidad",
+      "openCount_other": "{{count}} oportunidades",
+      "nextClosing_one": "{{title}} cierra en {{count}} día",
+      "nextClosing_other": "{{title}} cierra en {{count}} días"
+    },
+    "numbers": {
+      "suppliers": "Proveedores homologados",
+      "items": "Artículos en el catálogo de compras",
+      "savings": "Ahorro del semestre",
+      "cycle": "Plazo medio de compra",
+      "days_one": "{{count}} día",
+      "days_other": "{{count}} días"
+    },
+    "how": {
+      "title": "Cómo proveer a Suprir",
+      "subtitle": "Cuatro pasos entre el registro y el primer pedido. Cada etapa tiene plazo y responsable.",
+      "cadastro": {
+        "title": "1. Registro",
+        "desc": "Completa los datos de la empresa, elige las categorías que atiendes y adjunta los documentos."
+      },
+      "homologacao": {
+        "title": "2. Homologación",
+        "desc": "Compras revisa documentos y regularidad fiscal. La respuesta sale en hasta cinco días hábiles."
+      },
+      "convite": {
+        "title": "3. Invitación",
+        "desc": "El proveedor homologado entra en la lista de invitación de las cotizaciones de su categoría."
+      },
+      "proposta": {
+        "title": "4. Propuesta",
+        "desc": "Envía precio, plazo y condición por el portal. El mapa comparativo trata todas las propuestas igual."
+      }
+    },
+    "categories": {
+      "title": "Qué compramos",
+      "subtitle": "Ocho familias de compra, del material de oficina al servicio tercerizado. Elige las tuyas al registrarte.",
+      "cta": "Ver cotizaciones abiertas",
+      "count_one": "{{count}} proveedor homologado",
+      "count_other": "{{count}} proveedores homologados"
+    },
+    "integrity": {
+      "title": "La integridad no es un discurso",
+      "subtitle": "La regla que vale para el proveedor es la misma que vale para el comprador — y está escrita.",
+      "cta": "Leer la política completa",
+      "isonomia": {
+        "title": "La misma información para todos",
+        "desc": "Objeto, cantidad y plazo se publican de una vez. Nadie recibe detalles fuera del portal."
+      },
+      "sigilo": {
+        "title": "La propuesta es confidencial",
+        "desc": "El precio de un proveedor nunca se muestra a otro antes del cierre de la ronda."
+      },
+      "conflito": {
+        "title": "Conflicto de interés declarado",
+        "desc": "El comprador con vínculo personal o societario con el proveedor se declara impedido y sale de la ronda."
+      },
+      "canal": {
+        "title": "Canal abierto",
+        "desc": "La sospecha de favoritismo puede reportarse de forma anónima, sin represalias."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para competir?",
+      "subtitle": "El registro toma menos de diez minutos y vale para todas las categorías que atiendes.",
+      "register": "Registrar mi empresa",
+      "browse": "Ver oportunidades"
+    }
+  },
+
+  "opportunities": {
+    "title": "Oportunidades abiertas",
+    "subtitle": "Cotizaciones publicadas al mercado. Cualquier proveedor de la categoría puede enviar propuesta hasta el plazo.",
+    "searchPlaceholder": "Buscar por objeto o código",
+    "showing_one": "{{count}} oportunidad",
+    "showing_other": "{{count}} oportunidades",
+    "emptyTitle": "Ninguna oportunidad abierta",
+    "emptyDesc": "Las próximas rondas aparecen aquí en cuanto se publiquen.",
+    "emptyFiltered": "Ninguna oportunidad con esos filtros. Limpia la búsqueda para verlas todas.",
+    "daysLeft_one": "{{count}} día",
+    "daysLeft_other": "{{count}} días",
+    "moreItems_one": "{{count}} artículo más",
+    "moreItems_other": "{{count}} artículos más",
+    "closesOn": "Cierra el {{date}}",
+    "responded_one": "{{count}} propuesta recibida",
+    "responded_other": "{{count}} propuestas recibidas",
+    "open": "Ver y proponer",
+    "openedOn": "abierta el {{date}}",
+    "closed": "Cerrada",
+    "notFound": "Oportunidad no encontrada",
+    "notFoundDesc": "La ronda puede haber cerrado o la dirección es incorrecta.",
+    "backToList": "Volver a las oportunidades",
+    "itemsTitle_one": "Artículo de la cotización ({{count}})",
+    "itemsTitle_other": "Artículos de la cotización ({{count}})",
+    "item": "Artículo",
+    "sku": "Código",
+    "qty": "Cantidad",
+    "conditionsTitle": "Condiciones de la ronda",
+    "conditions": {
+      "freight": {
+        "title": "Flete incluido",
+        "desc": "El precio propuesto debe incluir la entrega en la dirección indicada en el pedido."
+      },
+      "invoice": {
+        "title": "Factura electrónica",
+        "desc": "La factura acompaña la mercancía y lleva el número del pedido de compra."
+      },
+      "warranty": {
+        "title": "Garantía mínima",
+        "desc": "Doce meses para bienes duraderos y tres meses para material de consumo."
+      },
+      "sample": {
+        "title": "Muestra a pedido",
+        "desc": "Las compras por encima de cien unidades pueden exigir una muestra antes de emitir el pedido."
+      }
+    },
+    "summary": "Resumen de la ronda",
+    "itemsCount": "Artículos",
+    "deadline": "Plazo de respuesta",
+    "buyerTitle": "Comprador",
+    "integrityTitle": "Competencia limpia",
+    "integrityDesc": "Todas las propuestas quedan selladas hasta el cierre y entran en el mismo mapa comparativo."
+  },
+
+  "bid": {
+    "formTitle": "Enviar propuesta",
+    "formSubtitle": "Completa el precio unitario de los artículos que atiendes. Dejar uno en blanco cuenta como propuesta parcial.",
+    "closed": "Esta ronda ya no recibe propuestas.",
+    "supplier": "Proveedor",
+    "supplierHint": "Elige la empresa registrada que está proponiendo.",
+    "leadDays": "Plazo de entrega (días)",
+    "terms": "Condición de pago",
+    "item": "Artículo",
+    "qty": "Cantidad",
+    "unitPrice": "Precio unitario",
+    "lineTotal": "Total de la línea",
+    "total": "Total de la propuesta",
+    "error": "Indica el proveedor y al menos un precio unitario.",
+    "partialHint": "Cotizaste {{covered}} de {{total}} artículos.",
+    "submit": "Enviar propuesta",
+    "success": "Propuesta registrada. Ya aparece en el mapa comparativo."
+  },
+
+  "signup": {
+    "title": "Registro de proveedor",
+    "subtitle": "Tres etapas: datos de la empresa, categorías que atiendes y documentos.",
+    "steps": {
+      "data": "Datos",
+      "categories": "Categorías",
+      "docs": "Documentos"
+    },
+    "fields": {
+      "name": "Razón social",
+      "namePlaceholder": "Nombre de la empresa como figura en la escritura",
+      "cnpj": "Registro fiscal",
+      "contactName": "Nombre del contacto comercial",
+      "email": "Correo comercial",
+      "phone": "Teléfono",
+      "city": "Ciudad",
+      "state": "Estado"
+    },
+    "errors": {
+      "required": "Campo obligatorio.",
+      "cnpj": "Indica un registro fiscal de 14 dígitos.",
+      "email": "Indica un correo válido.",
+      "state": "Usa la sigla de dos letras.",
+      "categories": "Elige al menos una categoría.",
+      "docs": "Adjunta los tres documentos para continuar.",
+      "accept": "Hay que aceptar la política de compras."
+    },
+    "categoriesHint": "Marca todo lo que tu empresa provee. Solo recibes invitación de las categorías marcadas.",
+    "docsHint": "En esta demostración el adjunto es simulado: un clic marca el documento como entregado.",
+    "docAttach": "Haz clic para adjuntar",
+    "docAttached": "Documento adjuntado",
+    "acceptPrefix": "He leído y acepto la",
+    "back": "Volver",
+    "next": "Continuar",
+    "submit": "Enviar registro",
+    "success": "Registro enviado para homologación.",
+    "doneTitle": "Registro recibido",
+    "doneDesc": "{{name}} entró en la cola de homologación. Compras responde en hasta cinco días hábiles.",
+    "seeOpportunities": "Ver oportunidades abiertas",
+    "another": "Registrar otra empresa"
+  },
+
+  "policy": {
+    "title": "Política de compras",
+    "subtitle": "Las reglas que valen para toda compra de Suprir, del pedido de material al contrato de servicio.",
+    "rulesTitle": "Reglas de la competencia",
+    "rules": {
+      "competition": {
+        "title": "Tres propuestas como mínimo",
+        "desc": "Toda cotización busca al menos tres propuestas válidas. Con menos, la compra necesita justificación escrita."
+      },
+      "documents": {
+        "title": "Documentos al día",
+        "desc": "El proveedor con certificado vencido queda suspendido hasta regularizar y no se le invita a nuevas rondas."
+      },
+      "confidential": {
+        "title": "Confidencial hasta el cierre",
+        "desc": "Ningún precio se revela a un competidor antes del fin de la ronda, ni por teléfono."
+      },
+      "deadline": {
+        "title": "El plazo publicado manda",
+        "desc": "La propuesta enviada después del cierre no entra en el mapa comparativo, sin excepción."
+      },
+      "payment": {
+        "title": "Pago según lo acordado",
+        "desc": "La condición aceptada en la propuesta es la que llega al pedido y al área financiera."
+      },
+      "audit": {
+        "title": "Elección auditable",
+        "desc": "Elegir a quien no es el más barato exige justificación registrada, que queda adjunta a la cotización."
+      }
+    },
+    "conflictTitle": "Conflicto de interés",
+    "conflictDesc": "Quien decide la compra debe declararse impedido en estas situaciones y pasar la ronda a otro comprador.",
+    "conflict": {
+      "relative": "Pariente hasta tercer grado trabajando en el proveedor o como socio de él.",
+      "gift": "Obsequio, viaje, evento o cortesía recibida del proveedor en los últimos doce meses.",
+      "partner": "Participación societaria, aunque sea minoritaria, en la empresa que propone.",
+      "former": "Relación laboral con el proveedor terminada hace menos de dos años."
+    },
+    "channelTitle": "Canal de integridad",
+    "channelDesc": "Para reportar favoritismo, cobros indebidos o presión de cualquier lado de la negociación.",
+    "channelAnonymous": "El reporte puede ser anónimo. No hay represalias contra quien reporta de buena fe.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": {
+      "prazo": {
+        "q": "¿Puedo enviar propuesta después del plazo?",
+        "a": "No. El portal cierra la ronda en la fecha publicada y las propuestas tardías no entran en el mapa comparativo."
+      },
+      "documentos": {
+        "q": "¿Qué documentos debo mantener al día?",
+        "a": "Certificado de no adeudo federal, regularidad del fondo laboral y escritura constitutiva actualizada. El portal avisa antes de cada vencimiento."
+      },
+      "brinde": {
+        "q": "¿Puedo ofrecer un obsequio al comprador?",
+        "a": "No. Cualquier cortesía, por pequeña que sea, debe rechazarse y comunicarse al canal de integridad."
+      },
+      "parente": {
+        "q": "Tengo un pariente trabajando en Suprir. ¿Puedo competir?",
+        "a": "Sí, siempre que el parentesco se declare en el registro. El comprador con vínculo sale de la ronda."
+      },
+      "pagamento": {
+        "q": "¿Cuándo se hace el pago?",
+        "a": "En la condición aceptada en la propuesta, contada desde la recepción de la mercancía verificada y la factura correcta."
+      },
+      "recusa": {
+        "q": "¿Por qué mi propuesta no ganó aun siendo la más barata?",
+        "a": "El plazo de entrega, la condición de pago y el historial de evaluación pesan en la decisión. Cuando el elegido no es el más barato, la justificación queda registrada en la cotización."
+      }
+    },
+    "footerNote": "Documento mantenido por {{company}} y revisado cada doce meses.",
+    "footerCta": "Registrar mi empresa"
+  },
+
+  "dashboard": {
+    "title": "Resumen",
+    "subtitle": "El ciclo de compra del departamento, de la requisición a la recepción.",
+    "goQuotes": "Ir a cotizaciones",
+    "kpi": {
+      "openRequests": "Requisiciones abiertas",
+      "openRequestsHint_one": "{{count}} esperando firma",
+      "openRequestsHint_other": "{{count}} esperando firma",
+      "runningQuotes": "Cotizaciones en curso",
+      "runningQuotesHint_one": "{{count}} propuesta recibida",
+      "runningQuotesHint_other": "{{count}} propuestas recibidas",
+      "savings": "Ahorro del mes",
+      "savingsHint": "Mayor total menos el total elegido en las rondas cerradas",
+      "cycle": "Plazo medio de compra",
+      "cycleValue_one": "{{count}} día",
+      "cycleValue_other": "{{count}} días",
+      "cycleHint": "De la apertura de la requisición a la emisión del pedido"
+    },
+    "budgetAlertTitle_one": "{{count}} centro de costo pasó del presupuesto",
+    "budgetAlertTitle_other": "{{count}} centros de costo pasaron del presupuesto",
+    "spendTitle": "Gasto por categoría",
+    "spendSubtitle": "Suma de los pedidos emitidos, sin los cancelados.",
+    "spend": "Gasto",
+    "noSpend": "Sin pedidos emitidos",
+    "noSpendDesc": "El gráfico aparece cuando se emita el primer pedido.",
+    "budgetTitle": "Presupuesto por centro de costo",
+    "awaitingTitle": "Esperando aprobación",
+    "awaitingEmpty": "Cola vacía",
+    "awaitingEmptyDesc": "Ninguna requisición está detenida esperando firma.",
+    "awaitingRole": "Falta el nivel {{role}}",
+    "neededBy": "Necesario para {{date}}",
+    "lateTitle": "Pedidos atrasados",
+    "lateEmpty": "Ningún pedido atrasado",
+    "lateEmptyDesc": "Todos los pedidos abiertos están dentro del plazo.",
+    "lateBy_one": "{{count}} día",
+    "lateBy_other": "{{count}} días",
+    "runningTitle": "Cotizaciones en curso",
+    "runningEmpty": "Ninguna cotización abierta",
+    "runningEmptyDesc": "Aprueba una requisición para abrir la próxima ronda."
+  },
+
+  "budget": {
+    "split": "Requisiciones {{requested}} · pedidos {{ordered}}",
+    "available": "Disponible {{value}}",
+    "overBy": "Excedido en {{value}}",
+    "alert": "El comprometido de {{code}} ya pasó del presupuesto del ejercicio."
+  },
+
+  "requests": {
+    "title": "Requisiciones",
+    "subtitle": "Qué pidió cada área, cuánto vale y quién falta por firmar.",
+    "new": "Nueva requisición",
+    "searchPlaceholder": "Buscar por código o justificación",
+    "showing_one": "{{count}} requisición",
+    "showing_other": "{{count}} requisiciones",
+    "emptyTitle": "Ninguna requisición",
+    "emptyDesc": "Empieza armando la primera lista de artículos.",
+    "emptyFiltered": "Ninguna requisición con esos filtros.",
+    "code": "Código",
+    "requester": "Solicitante",
+    "costCenter": "Centro de costo",
+    "value": "Valor estimado",
+    "waitingOn": "Situación de la facultad",
+    "waitingRole": "Falta {{role}}",
+    "neededBy": "Necesario para {{date}}",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "approved": "Requisición aprobada.",
+    "rejected": "Requisición rechazada.",
+    "notYourLevel": "Esta requisición está en el nivel {{role}}. La facultad en uso no firma ahora.",
+    "notYourLevelShort": "Fuera de la facultad en uso",
+    "actingLabel": "Firmando como",
+    "actingHint": "Cambia el aprobador para ver la facultad cambiar de mano.",
+    "defaultApproveNote": "Aprobado desde la lista de requisiciones.",
+    "defaultRejectNote": "Rechazado desde la lista de requisiciones.",
+    "dialogTitle": "Nueva requisición",
+    "dialogSubtitle": "Elige los artículos, el centro de costo y escribe la justificación.",
+    "dialogInvalid": "Agrega al menos un artículo y escribe la justificación.",
+    "catalog": "Catálogo",
+    "searchItem": "Buscar artículo o código",
+    "noItems": "Ningún artículo encontrado",
+    "noItemsDesc": "Ajusta la búsqueda o cambia la categoría.",
+    "addItem": "Agregar artículo",
+    "linesTitle_one": "Artículo de la requisición ({{count}})",
+    "linesTitle_other": "Artículos de la requisición ({{count}})",
+    "linesEmpty": "Ningún artículo agregado todavía.",
+    "justification": "Justificación",
+    "justificationPlaceholder": "Para qué sirve la compra y por qué ahora",
+    "estimated": "Valor estimado",
+    "chainPreview": "Facultad necesaria: {{roles}}",
+    "budgetWarning": "Esta requisición supera el presupuesto de {{code}} en {{value}}.",
+    "saveDraft": "Guardar borrador",
+    "sendForApproval": "Enviar a aprobación",
+    "createdDraft": "Borrador {{code}} guardado.",
+    "createdSent": "Requisición {{code}} enviada a aprobación.",
+    "sent": "Requisición enviada a aprobación.",
+    "notFound": "Requisición no encontrada",
+    "notFoundDesc": "Puede haber sido eliminada o la dirección es incorrecta.",
+    "backToList": "Volver a las requisiciones",
+    "createdOn": "abierta el {{date}}",
+    "item": "Artículo",
+    "qty": "Cantidad",
+    "refPrice": "Precio de referencia",
+    "lineTotal": "Total",
+    "tabItems": "Artículos",
+    "tabBudget": "Presupuesto",
+    "budgetExplain": "El comprometido suma las requisiciones aprobadas o en cotización y los pedidos ya emitidos de este centro de costo.",
+    "noBudget": "Centro de costo no encontrado.",
+    "openQuote": "Generar cotización",
+    "seeQuote": "Ver la cotización",
+    "approveTitle": "Aprobar requisición",
+    "rejectTitle": "Rechazar requisición",
+    "decisionAs": "Firmando como {{name}}, nivel {{role}}.",
+    "decisionNote": "Observación",
+    "decisionNotePlaceholder": "Opcional. Queda en el historial de aprobación.",
+    "cannotApprove": "{{acting}} no firma en este momento: la requisición está en el nivel {{role}}."
+  },
+
+  "approval": {
+    "ladderTitle": "Facultad de aprobación",
+    "ladderHint_one": "El valor exige {{count}} nivel de firma.",
+    "ladderHint_other": "El valor exige {{count}} niveles de firma, del menor al mayor.",
+    "limitUpTo": "hasta {{value}}",
+    "signed": "Firmado",
+    "waitingOn": "Esperando: {{names}}",
+    "notReached": "Aún no llegó a este nivel",
+    "complete": "Facultad completa. La requisición puede pasar a cotización.",
+    "missing": "Falta la firma del nivel {{role}}.",
+    "rejectedBy": "Rechazada por {{name}}.",
+    "historyTitle": "Historial",
+    "historyEmpty": "Ninguna firma registrada todavía.",
+    "approvedTag": "aprobó",
+    "rejectedTag": "rechazó"
+  },
+
+  "quotes": {
+    "title": "Cotizaciones",
+    "subtitle": "Rondas abiertas y cerradas, con quién fue invitado y quién respondió.",
+    "newFromRequest": "Abrir desde una requisición",
+    "searchPlaceholder": "Buscar por objeto o código",
+    "showing_one": "{{count}} cotización",
+    "showing_other": "{{count}} cotizaciones",
+    "emptyTitle": "Ninguna cotización",
+    "emptyDesc": "Aprueba una requisición para abrir la primera ronda.",
+    "emptyFiltered": "Ninguna cotización con esos filtros.",
+    "publicCall": "Abierta al mercado",
+    "openedOn": "abierta el {{date}}",
+    "invited": "Invitados",
+    "responded2": "Respondieron",
+    "respondedOf": "{{responded}} de {{invited}} respondieron",
+    "respondedHint": "Proveedores con propuesta registrada",
+    "itemsCount": "Artículos",
+    "savings": "Ahorro",
+    "potential": "Ahorro posible",
+    "savingsHint": "Mayor total menos el total elegido",
+    "winnerIs": "Ganador: {{name}}",
+    "hasNote": "con justificación",
+    "openMap": "Abrir mapa comparativo",
+    "expired": "Plazo vencido",
+    "closesIn_one": "Cierra en {{count}} día ({{date}})",
+    "closesIn_other": "Cierra en {{count}} días ({{date}})",
+    "category": "Categoría",
+    "itemsLine_one": "{{count}} artículo en la ronda",
+    "itemsLine_other": "{{count}} artículos en la ronda",
+    "notFound": "Cotización no encontrada",
+    "notFoundDesc": "Puede haber sido cancelada o la dirección es incorrecta.",
+    "backToList": "Volver a las cotizaciones",
+    "viewPublic": "Ver en el portal",
+    "issueOrder": "Emitir pedido",
+    "orderIssued": "Pedido emitido al ganador.",
+    "cancel": "Cancelar ronda",
+    "cancelled": "Cotización cancelada. Las requisiciones volvieron a aprobadas.",
+    "tabMap": "Mapa comparativo",
+    "tabSuppliers_one": "Proveedor ({{count}})",
+    "tabSuppliers_other": "Proveedores ({{count}})",
+    "tabOrigin": "Origen",
+    "ordersTitle": "Pedidos generados",
+    "winnerTotal": "Total elegido: {{value}}",
+    "notCheapest": "no es el menor total",
+    "winnerNoteLabel": "Justificación de la elección",
+    "openTitle": "Abrir cotización",
+    "openConfirm": "Abrir ronda",
+    "objectLabel": "Objeto de la cotización",
+    "daysLabel": "Plazo de respuesta (días)",
+    "pickSuppliers": "Invitar proveedores",
+    "pickSuppliersHint": "La lista trae los proveedores de la categoría. Los suspendidos no aparecen aquí.",
+    "noSuppliers": "Ningún proveedor disponible en esta categoría.",
+    "opened": "Cotización abierta."
+  },
+
+  "map": {
+    "title": "Mapa comparativo",
+    "subtitle_one": "{{count}} proveedor en disputa",
+    "subtitle_other": "{{count}} proveedores en disputa",
+    "scrollHint": "Desplázate al costado para ver todas las columnas",
+    "item": "Artículo",
+    "lead_one": "{{count}} día",
+    "lead_other": "{{count}} días",
+    "noTerms": "sin condición informada",
+    "coverageFull": "Cotizó todos los artículos",
+    "coveragePartial": "Propuesta parcial: {{covered}} de {{total}} artículos",
+    "winner": "Ganador",
+    "lineTotal": "Total {{value}}",
+    "bestPrice": "Menor precio del artículo",
+    "overBest": "{{pct}}% por encima del menor",
+    "noBid": "no cotizó",
+    "total": "Total de la propuesta",
+    "cheapest": "Menor total",
+    "diffToCheapest": "{{value}} más que el menor",
+    "incompleteTotal": "Total no comparable: faltan artículos",
+    "choose": "Elegir ganador",
+    "legendBest": "Menor precio del artículo",
+    "legendWinner": "Propuesta ganadora",
+    "savingsFinal": "Ahorro realizado",
+    "savingsPreview": "Ahorro posible",
+    "savingsFormula": "{{high}} (mayor total) menos {{chosen}}",
+    "noSuppliers": "Ninguna propuesta registrada en esta ronda."
+  },
+
+  "winner": {
+    "title": "Elegir ganador",
+    "chosenTotal": "Total del elegido",
+    "cheapestTotal": "Menor total de la ronda",
+    "leadTerms": "Plazo y condición",
+    "cheapestHint": "Es la propuesta de menor total. La justificación queda opcional.",
+    "notCheapestHint": "Esta propuesta cuesta {{value}} más que la de menor total. La justificación es obligatoria.",
+    "notCheapestHintPlain": "Esta propuesta no es la de menor total. La justificación es obligatoria.",
+    "noteRequired": "Justificación de la elección",
+    "noteOptional": "Observación (opcional)",
+    "notePlaceholder": "Plazo, garantía, historial de entrega, flete incluido…",
+    "noteError": "Escribe por qué se eligió esta propuesta.",
+    "confirm": "Confirmar ganador",
+    "success": "Ganador definido y ronda cerrada.",
+    "noteRequiredToast": "Elegir a quien no es el más barato ({{name}} tiene el menor total) exige justificación.",
+    "noBidToast": "Este proveedor no registró propuesta en esta ronda."
+  },
+
+  "invite": {
+    "invitedTitle_one": "Invitado ({{count}})",
+    "invitedTitle_other": "Invitados ({{count}})",
+    "invitedEmpty": "Ningún proveedor invitado todavía.",
+    "responded": "respondió",
+    "waiting": "esperando propuesta",
+    "remove": "Quitar",
+    "removed": "Proveedor quitado de la ronda.",
+    "addTitle": "Agregar proveedor",
+    "searchPlaceholder": "Buscar por nombre o registro fiscal",
+    "emptyTitle": "Ningún proveedor disponible",
+    "emptyDesc": "Todos los proveedores de la categoría ya fueron invitados.",
+    "add": "Invitar",
+    "added": "Proveedor invitado.",
+    "block": {
+      "suspenso": "{{name}} está suspendido y no puede ser invitado hasta regularizar el registro.",
+      "ja-convidado": "{{name}} ya está en la lista de invitados de esta ronda.",
+      "categoria": "{{name}} no atiende la categoría de esta cotización."
+    }
+  },
+
+  "orders": {
+    "title": "Pedidos",
+    "subtitle": "Pedidos emitidos, plazo de entrega y lo que ya entró en el almacén.",
+    "searchPlaceholder": "Buscar por código o proveedor",
+    "showing_one": "{{count}} pedido",
+    "showing_other": "{{count}} pedidos",
+    "emptyTitle": "Ningún pedido",
+    "emptyDesc": "Cierra una cotización para emitir el primer pedido.",
+    "emptyFiltered": "Ningún pedido con esos filtros.",
+    "code": "Pedido",
+    "supplier": "Proveedor",
+    "value": "Valor",
+    "due": "Plazo",
+    "receipt": "Recepción",
+    "issuedOn": "emitido el {{date}}",
+    "receivedOn": "recibido el {{date}}",
+    "cancelledLine": "pedido cancelado",
+    "lateBy_one": "{{count}} día de atraso",
+    "lateBy_other": "{{count}} días de atraso",
+    "dueIn_one": "faltan {{count}} día",
+    "dueIn_other": "faltan {{count}} días",
+    "receive": "Recibir",
+    "receivedOf": "{{received}} de {{ordered}} recibidos",
+    "rate": "Evaluar",
+    "rerate": "Reevaluar",
+    "rated": "Evaluación registrada.",
+    "rateTitle": "Evaluar el pedido",
+    "rateHint": "La nota del proveedor es el promedio de las evaluaciones de los pedidos recibidos.",
+    "rateOnlyReceived": "Solo se puede evaluar un pedido totalmente recibido.",
+    "ratingLabel": {
+      "1": "Muy por debajo de lo acordado",
+      "2": "Por debajo de lo acordado",
+      "3": "Dentro de lo esperado",
+      "4": "Por encima de lo esperado",
+      "5": "Entrega ejemplar"
+    }
+  },
+
+  "receive": {
+    "title": "Registrar recepción",
+    "subtitle": "{{code}} · plazo {{date}}",
+    "item": "Artículo",
+    "ordered": "Pedido",
+    "already": "Recibido",
+    "pending": "Saldo",
+    "now": "Recibir ahora",
+    "confirm": "Registrar",
+    "hint": "Cada línea acepta como máximo el saldo abierto. El pedido solo queda recibido cuando todas las líneas cierran la cantidad.",
+    "success": "Recepción registrada.",
+    "overPending": "{{item}}: el saldo abierto es {{pending}} e indicaste {{given}}."
+  },
+
+  "rating": {
+    "none": "sin evaluación",
+    "from_one": "de {{count}} pedido",
+    "from_other": "de {{count}} pedidos"
+  },
+
+  "suppliers": {
+    "title": "Proveedores",
+    "subtitle": "Registro, documentos, situación y la nota calculada por los pedidos recibidos.",
+    "searchPlaceholder": "Buscar por nombre o registro fiscal",
+    "showing_one": "{{count}} proveedor",
+    "showing_other": "{{count}} proveedores",
+    "emptyTitle": "Ningún proveedor",
+    "emptyDesc": "Los registros enviados por el portal aparecen aquí.",
+    "emptyFiltered": "Ningún proveedor con esos filtros.",
+    "rating": "Nota",
+    "volume": "Comprado",
+    "since": "Registrado el",
+    "expiredDocs_one": "Documento vencido: {{list}}",
+    "expiredDocs_other": "Documentos vencidos: {{list}}",
+    "open": "Abrir ficha",
+    "approve": "Homologar",
+    "approved": "{{name}} homologado.",
+    "suspend": "Suspender",
+    "suspended": "{{name}} suspendido.",
+    "reinstate": "Reactivar registro",
+    "reinstated": "{{name}} volvió a la cola de homologación.",
+    "suspendedNote": "Un proveedor suspendido no puede ser invitado a nuevas cotizaciones.",
+    "contact": "Contacto",
+    "categoriesTitle": "Categorías atendidas",
+    "docsTitle": "Documentos",
+    "noDocs": "Ningún documento adjuntado.",
+    "docExpired_one": "vencido hace {{count}} día",
+    "docExpired_other": "vencido hace {{count}} días",
+    "docValid": "válido hasta {{date}}",
+    "docsWarning": "Regulariza los documentos para volver a recibir invitaciones.",
+    "ordersTitle_one": "Pedido ({{count}})",
+    "ordersTitle_other": "Pedidos ({{count}})",
+    "volumeLine": "Total comprado: {{value}}",
+    "noOrders": "Ningún pedido emitido a este proveedor.",
+    "ratingExplain": "La nota es el promedio de las evaluaciones de los pedidos recibidos — nunca un campo escrito a mano."
+  },
+
+  "settings": {
+    "title": "Configuración",
+    "subtitle": "Perfil, datos de la empresa, facultades, centros de costo y apariencia.",
+    "tabProfile": "Perfil",
+    "tabCompany": "Empresa",
+    "tabLimits": "Facultades",
+    "tabCenters": "Centros de costo",
+    "tabAppearance": "Apariencia",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "role": "Cargo",
+    "saved": "Cambios guardados.",
+    "legalName": "Razón social",
+    "cnpj": "Registro fiscal",
+    "phone": "Teléfono",
+    "address": "Dirección",
+    "quoteDays": "Plazo estándar de la cotización",
+    "quoteDaysHint": "Días que el proveedor tiene para responder.",
+    "minBids": "Mínimo de propuestas",
+    "minBidsHint": "Por debajo de eso la compra pide justificación.",
+    "limitsHint": "La facultad es el valor máximo que el miembro firma solo. Por encima, la requisición sube al siguiente nivel.",
+    "actingMember": "Firmando como",
+    "actingHint": "Esto define de quién es la facultad usada en las pantallas de aprobación.",
+    "member": "Miembro",
+    "roleColumn": "Nivel",
+    "limit": "Facultad",
+    "noLimit": "no aprueba",
+    "centersHint": "El comprometido suma las requisiciones aprobadas o en cotización y los pedidos emitidos.",
+    "budget": "Presupuesto del ejercicio",
+    "committedNow": "Comprometido hoy: {{value}}",
+    "darkMode": "Modo oscuro",
+    "darkModeHint": "Vale para el portal y para el área de compras.",
+    "language": "Idioma",
+    "privacy": "Privacidad",
+    "privacyHint": "Revisa las preferencias de cookies del portal.",
+    "reviewCookies": "Revisar cookies",
+    "resetTitle": "Restaurar datos de la demostración",
+    "resetHint": "Devuelve requisiciones, cotizaciones, pedidos y proveedores al estado inicial.",
+    "reset": "Restaurar datos",
+    "resetDone": "Datos restaurados."
+  },
+
+  "notFound": {
+    "title": "Página no encontrada",
+    "desc": "La dirección no existe o el contenido se movió. Vuelve al portal o al área de compras.",
+    "home": "Ir al portal",
+    "dashboard": "Ir al área de compras"
+  }
+}

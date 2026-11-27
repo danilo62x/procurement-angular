@@ -1,0 +1,857 @@
+{
+  "brand": "Suprir",
+
+  "common": {
+    "actions": "Actions",
+    "all": "All",
+    "cancel": "Cancel",
+    "category": "Category",
+    "clearFilters": "Clear filters",
+    "delete": "Delete",
+    "error": "Could not complete. Check the data and try again.",
+    "guest": "Guest",
+    "next": "Next",
+    "noResults": "No results",
+    "open": "Open",
+    "previous": "Previous",
+    "save": "Save",
+    "search": "Search",
+    "status": "Status",
+    "theme": "Theme",
+    "viewAll": "View all"
+  },
+
+  "nav": {
+    "home": "Home",
+    "opportunities": "Opportunities",
+    "signup": "Supplier registration",
+    "policy": "Purchasing policy",
+    "login": "Sign in",
+    "dashboard": "Purchasing",
+    "becomeSupplier": "Become a supplier"
+  },
+
+  "appNav": {
+    "purchasingSection": "Purchasing",
+    "registrySection": "Registry",
+    "settingsSection": "Settings",
+    "dashboard": "Overview",
+    "requests": "Requisitions",
+    "quotes": "Quotes",
+    "orders": "Orders",
+    "suppliers": "Suppliers",
+    "settings": "Settings",
+    "logout": "Sign out",
+    "collapse": "Collapse menu",
+    "toggleSidebar": "Open or close the menu",
+    "notifications": "Pending items",
+    "viewSite": "View the portal",
+    "pendingTitle": "Approval queue",
+    "pendingCount_one": "{{count}} requisition waiting",
+    "pendingCount_other": "{{count}} requisitions waiting",
+    "openPending": "Open the queue",
+    "actingAs": "Signing limit of {{name}}"
+  },
+
+  "roles": {
+    "solicitante": "Requester",
+    "comprador": "Buyer",
+    "gerente": "Manager",
+    "diretor": "Director"
+  },
+
+  "reqStatus": {
+    "rascunho": "Draft",
+    "aguardando-aprovacao": "Awaiting approval",
+    "aprovada": "Approved",
+    "recusada": "Rejected",
+    "em-cotacao": "Out for quote",
+    "atendida": "Fulfilled"
+  },
+
+  "quoteStatus": {
+    "aberta": "Open",
+    "encerrada": "Closed",
+    "cancelada": "Cancelled"
+  },
+
+  "orderStatus": {
+    "emitido": "Issued",
+    "parcial": "Partially received",
+    "recebido": "Received",
+    "atrasado": "Late",
+    "cancelado": "Cancelled"
+  },
+
+  "supplierStatus": {
+    "pendente": "Registration pending",
+    "homologado": "Approved",
+    "suspenso": "Suspended"
+  },
+
+  "units": {
+    "un_one": "unit",
+    "un_other": "units",
+    "cx_one": "box",
+    "cx_other": "boxes",
+    "pct_one": "pack",
+    "pct_other": "packs",
+    "par_one": "pair",
+    "par_other": "pairs",
+    "resma_one": "ream",
+    "resma_other": "reams",
+    "rolo_one": "roll",
+    "rolo_other": "rolls",
+    "lata_one": "can",
+    "lata_other": "cans",
+    "galao_one": "gallon",
+    "galao_other": "gallons",
+    "fardo_one": "bale",
+    "fardo_other": "bales",
+    "bobina_one": "reel",
+    "bobina_other": "reels",
+    "visita_one": "visit",
+    "visita_other": "visits",
+    "servico_one": "service",
+    "servico_other": "services",
+    "turma_one": "class",
+    "turma_other": "classes"
+  },
+
+  "terms": {
+    "a-vista": "Cash on delivery",
+    "d15": "15 days",
+    "d28": "28 days",
+    "d30-60": "30 and 60 days",
+    "d30-60-90": "30, 60 and 90 days"
+  },
+
+  "docs": {
+    "cnd-federal": "Federal tax clearance certificate",
+    "fgts": "Payroll fund compliance certificate",
+    "contrato-social": "Articles of incorporation"
+  },
+
+  "alerts": {
+    "count_one": "{{count}} pending item",
+    "count_other": "{{count}} pending items",
+    "empty": "Nothing needs attention right now.",
+    "lateOrder": "Order {{code}} is late",
+    "lateOrderDetail_one": "{{supplier}} — {{count}} day late",
+    "lateOrderDetail_other": "{{supplier}} — {{count}} days late",
+    "needsApproval": "Requisition {{code}} needs a signature",
+    "needsApprovalDetail": "Waiting on the {{role}} level — {{value}}",
+    "quoteClosing": "Quote {{code}} is closing",
+    "quoteClosingDetail_one": "Closes in {{count}} day",
+    "quoteClosingDetail_other": "Closes in {{count}} days"
+  },
+
+  "auth": {
+    "loginTitle": "Sign in to purchasing",
+    "loginSubtitle": "Follow the department's requisitions, quotes and orders.",
+    "email": "Email",
+    "password": "Password",
+    "remember": "Keep me signed in",
+    "forgot": "Forgot password",
+    "loginCta": "Sign in",
+    "loggingIn": "Signing in…",
+    "loginError": "Check the email and password and try again.",
+    "loginSuccess": "Welcome back.",
+    "noAccount": "No access yet?",
+    "registerCta": "Create account",
+    "demoTitle": "Demo account",
+    "demoHint": "Any email and password work in this demo.",
+    "registerTitle": "Create a purchasing account",
+    "registerSubtitle": "Set up your purchasing department in a few minutes.",
+    "name": "Full name",
+    "organization": "Company",
+    "terms": "I have read and accept the purchasing policy and the privacy policy.",
+    "registerSuccess": "Account created. Happy sourcing.",
+    "hasAccount": "Already have an account?",
+    "loginLink": "Sign in"
+  },
+
+  "cookie": {
+    "title": "This portal uses cookies",
+    "desc": "We store language and theme preferences to improve your visit.",
+    "policy": "Learn more",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+
+  "landing": {
+    "footer": {
+      "tagline": "Suprir's supplier portal: open quotes, clear rules and payment on the agreed terms.",
+      "rights": "All rights reserved.",
+      "channel": "Integrity channel"
+    }
+  },
+
+  "home": {
+    "hero": {
+      "badge": "Supplier portal",
+      "title": "Sell to Suprir with clear rules and agreed deadlines",
+      "subtitle": "Register your company, get invited to quotes in your category and submit proposals through the portal. No middleman, no fees.",
+      "register": "Register my company",
+      "opportunities": "See opportunities",
+      "free": "Free registration",
+      "integrity": "Audited competition",
+      "openNow": "Quotes open right now",
+      "openCount_one": "{{count}} opportunity",
+      "openCount_other": "{{count}} opportunities",
+      "nextClosing_one": "{{title}} closes in {{count}} day",
+      "nextClosing_other": "{{title}} closes in {{count}} days"
+    },
+    "numbers": {
+      "suppliers": "Approved suppliers",
+      "items": "Items in the purchasing catalogue",
+      "savings": "Savings this half-year",
+      "cycle": "Average purchasing time",
+      "days_one": "{{count}} day",
+      "days_other": "{{count}} days"
+    },
+    "how": {
+      "title": "How to supply Suprir",
+      "subtitle": "Four steps between registration and the first order. Every stage has a deadline and an owner.",
+      "cadastro": {
+        "title": "1. Registration",
+        "desc": "Fill in the company details, pick the categories you serve and attach the documents."
+      },
+      "homologacao": {
+        "title": "2. Approval",
+        "desc": "Purchasing checks documents and tax compliance. The answer comes within five business days."
+      },
+      "convite": {
+        "title": "3. Invitation",
+        "desc": "An approved supplier joins the invite list for every quote in its category."
+      },
+      "proposta": {
+        "title": "4. Proposal",
+        "desc": "Send price, lead time and payment terms through the portal. The comparison map treats every proposal the same way."
+      }
+    },
+    "categories": {
+      "title": "What we buy",
+      "subtitle": "Eight purchasing families, from office supplies to outsourced services. Pick yours during registration.",
+      "cta": "See open quotes",
+      "count_one": "{{count}} approved supplier",
+      "count_other": "{{count}} approved suppliers"
+    },
+    "integrity": {
+      "title": "Integrity is not a slogan",
+      "subtitle": "The rule that applies to the supplier is the same one that applies to the buyer — and it is written down.",
+      "cta": "Read the full policy",
+      "isonomia": {
+        "title": "Same information for everyone",
+        "desc": "Scope, quantity and deadline are published at once. Nobody gets details outside the portal."
+      },
+      "sigilo": {
+        "title": "Proposals stay sealed",
+        "desc": "One supplier's price is never shown to another before the round closes."
+      },
+      "conflito": {
+        "title": "Conflicts are declared",
+        "desc": "A buyer with a personal or ownership tie to the supplier declares it and steps out of the round."
+      },
+      "canal": {
+        "title": "An open channel",
+        "desc": "Suspected favouritism can be reported anonymously, with no retaliation."
+      }
+    },
+    "cta": {
+      "title": "Ready to compete?",
+      "subtitle": "Registration takes less than ten minutes and covers every category you serve.",
+      "register": "Register my company",
+      "browse": "See opportunities"
+    }
+  },
+
+  "opportunities": {
+    "title": "Open opportunities",
+    "subtitle": "Quotes published to the market. Any supplier in the category may submit a proposal before the deadline.",
+    "searchPlaceholder": "Search by scope or code",
+    "showing_one": "{{count}} opportunity",
+    "showing_other": "{{count}} opportunities",
+    "emptyTitle": "No open opportunities",
+    "emptyDesc": "The next rounds show up here as soon as they are published.",
+    "emptyFiltered": "No opportunity matches these filters. Clear the search to see them all.",
+    "daysLeft_one": "{{count}} day",
+    "daysLeft_other": "{{count}} days",
+    "moreItems_one": "{{count}} more item",
+    "moreItems_other": "{{count}} more items",
+    "closesOn": "Closes on {{date}}",
+    "responded_one": "{{count}} proposal received",
+    "responded_other": "{{count}} proposals received",
+    "open": "View and bid",
+    "openedOn": "opened on {{date}}",
+    "closed": "Closed",
+    "notFound": "Opportunity not found",
+    "notFoundDesc": "The round may have closed or the address is wrong.",
+    "backToList": "Back to opportunities",
+    "itemsTitle_one": "Quote item ({{count}})",
+    "itemsTitle_other": "Quote items ({{count}})",
+    "item": "Item",
+    "sku": "Code",
+    "qty": "Quantity",
+    "conditionsTitle": "Round conditions",
+    "conditions": {
+      "freight": {
+        "title": "Freight included",
+        "desc": "The quoted price must include delivery to the site named on the purchase order."
+      },
+      "invoice": {
+        "title": "Electronic invoice",
+        "desc": "The invoice travels with the goods and carries the purchase order number."
+      },
+      "warranty": {
+        "title": "Minimum warranty",
+        "desc": "Twelve months for durable goods and three months for consumables."
+      },
+      "sample": {
+        "title": "Sample on request",
+        "desc": "Purchases above one hundred units may require a sample before the order is issued."
+      }
+    },
+    "summary": "Round summary",
+    "itemsCount": "Items",
+    "deadline": "Response deadline",
+    "buyerTitle": "Buyer",
+    "integrityTitle": "Fair competition",
+    "integrityDesc": "Every proposal stays sealed until the round closes and lands in the same comparison map."
+  },
+
+  "bid": {
+    "formTitle": "Submit a proposal",
+    "formSubtitle": "Enter the unit price of the items you can supply. Leaving an item blank counts as a partial proposal.",
+    "closed": "This round no longer accepts proposals.",
+    "supplier": "Supplier",
+    "supplierHint": "Pick the registered company making the offer.",
+    "leadDays": "Lead time (days)",
+    "terms": "Payment terms",
+    "item": "Item",
+    "qty": "Quantity",
+    "unitPrice": "Unit price",
+    "lineTotal": "Line total",
+    "total": "Proposal total",
+    "error": "Choose a supplier and enter at least one unit price.",
+    "partialHint": "You quoted {{covered}} of {{total}} items.",
+    "submit": "Send proposal",
+    "success": "Proposal recorded. It already shows in the comparison map."
+  },
+
+  "signup": {
+    "title": "Supplier registration",
+    "subtitle": "Three steps: company details, the categories you serve and your documents.",
+    "steps": {
+      "data": "Details",
+      "categories": "Categories",
+      "docs": "Documents"
+    },
+    "fields": {
+      "name": "Legal name",
+      "namePlaceholder": "Company name as it appears in the incorporation papers",
+      "cnpj": "Tax ID",
+      "contactName": "Sales contact name",
+      "email": "Business email",
+      "phone": "Phone",
+      "city": "City",
+      "state": "State"
+    },
+    "errors": {
+      "required": "Required field.",
+      "cnpj": "Enter a tax ID with 14 digits.",
+      "email": "Enter a valid email.",
+      "state": "Use the two-letter code.",
+      "categories": "Pick at least one category.",
+      "docs": "Attach all three documents to continue.",
+      "accept": "You must accept the purchasing policy."
+    },
+    "categoriesHint": "Tick everything your company supplies. You are only invited to the categories you tick.",
+    "docsHint": "In this demo the upload is simulated: one click marks the document as delivered.",
+    "docAttach": "Click to attach",
+    "docAttached": "Document attached",
+    "acceptPrefix": "I have read and accept the",
+    "back": "Back",
+    "next": "Continue",
+    "submit": "Send registration",
+    "success": "Registration sent for approval.",
+    "doneTitle": "Registration received",
+    "doneDesc": "{{name}} joined the approval queue. Purchasing replies within five business days.",
+    "seeOpportunities": "See open opportunities",
+    "another": "Register another company"
+  },
+
+  "policy": {
+    "title": "Purchasing policy",
+    "subtitle": "The rules behind every Suprir purchase, from a supplies request to a service contract.",
+    "rulesTitle": "Competition rules",
+    "rules": {
+      "competition": {
+        "title": "Three proposals minimum",
+        "desc": "Every quote seeks at least three valid proposals. With fewer, the purchase needs a written justification."
+      },
+      "documents": {
+        "title": "Documents up to date",
+        "desc": "A supplier with an expired certificate is suspended until it is renewed and is not invited to new rounds."
+      },
+      "confidential": {
+        "title": "Sealed until closing",
+        "desc": "No price is revealed to a competitor before the round ends, not even over the phone."
+      },
+      "deadline": {
+        "title": "The published deadline holds",
+        "desc": "A proposal sent after closing does not enter the comparison map, no exceptions."
+      },
+      "payment": {
+        "title": "Payment as agreed",
+        "desc": "The terms accepted in the proposal are the terms that reach the order and the finance team."
+      },
+      "audit": {
+        "title": "Auditable choice",
+        "desc": "Choosing anyone other than the cheapest requires a recorded justification, stored with the quote."
+      }
+    },
+    "conflictTitle": "Conflict of interest",
+    "conflictDesc": "Whoever decides the purchase must step aside in these situations and hand the round to another buyer.",
+    "conflict": {
+      "relative": "A relative up to the third degree working for the supplier or owning part of it.",
+      "gift": "A gift, trip, event or courtesy received from the supplier in the last twelve months.",
+      "partner": "Any ownership stake, however small, in the company making the offer.",
+      "former": "Employment with the supplier that ended less than two years ago."
+    },
+    "channelTitle": "Integrity channel",
+    "channelDesc": "To report favouritism, improper charges or pressure from either side of the negotiation.",
+    "channelAnonymous": "Reports may be anonymous. There is no retaliation against good-faith reporting.",
+    "faqTitle": "Frequently asked questions",
+    "faq": {
+      "prazo": {
+        "q": "Can I send a proposal after the deadline?",
+        "a": "No. The portal closes the round on the published date and late proposals do not enter the comparison map."
+      },
+      "documentos": {
+        "q": "Which documents must I keep current?",
+        "a": "Federal tax clearance, payroll fund compliance and up-to-date articles of incorporation. The portal warns you before each expiry."
+      },
+      "brinde": {
+        "q": "May I offer a gift to the buyer?",
+        "a": "No. Any courtesy, however small, must be refused and reported to the integrity channel."
+      },
+      "parente": {
+        "q": "I have a relative working at Suprir. May I compete?",
+        "a": "Yes, as long as the relationship is declared during registration. The related buyer leaves the round."
+      },
+      "pagamento": {
+        "q": "When is payment made?",
+        "a": "On the terms accepted in the proposal, counted from the receipt of the checked goods and a correct invoice."
+      },
+      "recusa": {
+        "q": "Why did my proposal lose even though it was the cheapest?",
+        "a": "Lead time, payment terms and delivery history all weigh on the decision. When the winner is not the cheapest, the justification is recorded with the quote."
+      }
+    },
+    "footerNote": "Document maintained by {{company}} and reviewed every twelve months.",
+    "footerCta": "Register my company"
+  },
+
+  "dashboard": {
+    "title": "Overview",
+    "subtitle": "The department's purchasing cycle, from requisition to receipt.",
+    "goQuotes": "Go to quotes",
+    "kpi": {
+      "openRequests": "Open requisitions",
+      "openRequestsHint_one": "{{count}} waiting for a signature",
+      "openRequestsHint_other": "{{count}} waiting for a signature",
+      "runningQuotes": "Quotes in progress",
+      "runningQuotesHint_one": "{{count}} proposal received",
+      "runningQuotesHint_other": "{{count}} proposals received",
+      "savings": "Savings this month",
+      "savingsHint": "Highest total minus the chosen total in closed rounds",
+      "cycle": "Average purchasing time",
+      "cycleValue_one": "{{count}} day",
+      "cycleValue_other": "{{count}} days",
+      "cycleHint": "From opening the requisition to issuing the order"
+    },
+    "budgetAlertTitle_one": "{{count}} cost centre is over budget",
+    "budgetAlertTitle_other": "{{count}} cost centres are over budget",
+    "spendTitle": "Spend by category",
+    "spendSubtitle": "Sum of issued orders, cancelled ones excluded.",
+    "spend": "Spend",
+    "noSpend": "No orders issued",
+    "noSpendDesc": "The chart appears once the first order is issued.",
+    "budgetTitle": "Budget by cost centre",
+    "awaitingTitle": "Awaiting approval",
+    "awaitingEmpty": "Empty queue",
+    "awaitingEmptyDesc": "No requisition is stuck waiting for a signature.",
+    "awaitingRole": "Waiting on the {{role}} level",
+    "neededBy": "Needed by {{date}}",
+    "lateTitle": "Late orders",
+    "lateEmpty": "No late orders",
+    "lateEmptyDesc": "Every open order is still within its deadline.",
+    "lateBy_one": "{{count}} day",
+    "lateBy_other": "{{count}} days",
+    "runningTitle": "Quotes in progress",
+    "runningEmpty": "No open quotes",
+    "runningEmptyDesc": "Approve a requisition to open the next round."
+  },
+
+  "budget": {
+    "split": "Requisitions {{requested}} · orders {{ordered}}",
+    "available": "Available {{value}}",
+    "overBy": "Over by {{value}}",
+    "alert": "Committed spend on {{code}} has already passed the year's budget."
+  },
+
+  "requests": {
+    "title": "Requisitions",
+    "subtitle": "What each area asked for, what it is worth and who still has to sign.",
+    "new": "New requisition",
+    "searchPlaceholder": "Search by code or justification",
+    "showing_one": "{{count}} requisition",
+    "showing_other": "{{count}} requisitions",
+    "emptyTitle": "No requisitions",
+    "emptyDesc": "Start by putting together the first list of items.",
+    "emptyFiltered": "No requisition matches these filters.",
+    "code": "Code",
+    "requester": "Requester",
+    "costCenter": "Cost centre",
+    "value": "Estimated value",
+    "waitingOn": "Approval status",
+    "waitingRole": "Waiting on {{role}}",
+    "neededBy": "Needed by {{date}}",
+    "approve": "Approve",
+    "reject": "Reject",
+    "approved": "Requisition approved.",
+    "rejected": "Requisition rejected.",
+    "notYourLevel": "This requisition sits at the {{role}} level. The signing limit in use cannot approve it now.",
+    "notYourLevelShort": "Outside the signing limit in use",
+    "actingLabel": "Signing as",
+    "actingHint": "Switch the approver to watch the signing limit change hands.",
+    "defaultApproveNote": "Approved from the requisition list.",
+    "defaultRejectNote": "Rejected from the requisition list.",
+    "dialogTitle": "New requisition",
+    "dialogSubtitle": "Pick the items, the cost centre and write the justification.",
+    "dialogInvalid": "Add at least one item and write the justification.",
+    "catalog": "Catalogue",
+    "searchItem": "Search item or code",
+    "noItems": "No item found",
+    "noItemsDesc": "Adjust the search or change the category.",
+    "addItem": "Add item",
+    "linesTitle_one": "Requisition item ({{count}})",
+    "linesTitle_other": "Requisition items ({{count}})",
+    "linesEmpty": "No item added yet.",
+    "justification": "Justification",
+    "justificationPlaceholder": "What the purchase is for and why now",
+    "estimated": "Estimated value",
+    "chainPreview": "Signing chain: {{roles}}",
+    "budgetWarning": "This requisition puts {{code}} over budget by {{value}}.",
+    "saveDraft": "Save draft",
+    "sendForApproval": "Send for approval",
+    "createdDraft": "Draft {{code}} saved.",
+    "createdSent": "Requisition {{code}} sent for approval.",
+    "sent": "Requisition sent for approval.",
+    "notFound": "Requisition not found",
+    "notFoundDesc": "It may have been deleted or the address is wrong.",
+    "backToList": "Back to requisitions",
+    "createdOn": "opened on {{date}}",
+    "item": "Item",
+    "qty": "Quantity",
+    "refPrice": "Reference price",
+    "lineTotal": "Total",
+    "tabItems": "Items",
+    "tabBudget": "Budget",
+    "budgetExplain": "Committed spend adds the approved or out-for-quote requisitions to the orders already issued for this cost centre.",
+    "noBudget": "Cost centre not found.",
+    "openQuote": "Open a quote",
+    "seeQuote": "See the quote",
+    "approveTitle": "Approve requisition",
+    "rejectTitle": "Reject requisition",
+    "decisionAs": "Signing as {{name}}, {{role}} level.",
+    "decisionNote": "Note",
+    "decisionNotePlaceholder": "Optional. It stays in the approval history.",
+    "cannotApprove": "{{acting}} cannot sign right now: the requisition sits at the {{role}} level."
+  },
+
+  "approval": {
+    "ladderTitle": "Signing limits",
+    "ladderHint_one": "This value needs {{count}} level of signature.",
+    "ladderHint_other": "This value needs {{count}} levels of signature, from the lowest to the highest.",
+    "limitUpTo": "up to {{value}}",
+    "signed": "Signed",
+    "waitingOn": "Waiting on: {{names}}",
+    "notReached": "Has not reached this level yet",
+    "complete": "Signing complete. The requisition can go out for quote.",
+    "missing": "Missing the signature of the {{role}} level.",
+    "rejectedBy": "Rejected by {{name}}.",
+    "historyTitle": "History",
+    "historyEmpty": "No signature recorded yet.",
+    "approvedTag": "approved",
+    "rejectedTag": "rejected"
+  },
+
+  "quotes": {
+    "title": "Quotes",
+    "subtitle": "Open and closed rounds, with who was invited and who answered.",
+    "newFromRequest": "Open from a requisition",
+    "searchPlaceholder": "Search by scope or code",
+    "showing_one": "{{count}} quote",
+    "showing_other": "{{count}} quotes",
+    "emptyTitle": "No quotes",
+    "emptyDesc": "Approve a requisition to open the first round.",
+    "emptyFiltered": "No quote matches these filters.",
+    "publicCall": "Open to the market",
+    "openedOn": "opened on {{date}}",
+    "invited": "Invited",
+    "responded2": "Answered",
+    "respondedOf": "{{responded}} of {{invited}} answered",
+    "respondedHint": "Suppliers with a recorded proposal",
+    "itemsCount": "Items",
+    "savings": "Savings",
+    "potential": "Possible savings",
+    "savingsHint": "Highest total minus the chosen total",
+    "winnerIs": "Winner: {{name}}",
+    "hasNote": "with justification",
+    "openMap": "Open comparison map",
+    "expired": "Deadline passed",
+    "closesIn_one": "Closes in {{count}} day ({{date}})",
+    "closesIn_other": "Closes in {{count}} days ({{date}})",
+    "category": "Category",
+    "itemsLine_one": "{{count}} item in the round",
+    "itemsLine_other": "{{count}} items in the round",
+    "notFound": "Quote not found",
+    "notFoundDesc": "It may have been cancelled or the address is wrong.",
+    "backToList": "Back to quotes",
+    "viewPublic": "View on the portal",
+    "issueOrder": "Issue order",
+    "orderIssued": "Order issued to the winner.",
+    "cancel": "Cancel round",
+    "cancelled": "Quote cancelled. The requisitions went back to approved.",
+    "tabMap": "Comparison map",
+    "tabSuppliers_one": "Supplier ({{count}})",
+    "tabSuppliers_other": "Suppliers ({{count}})",
+    "tabOrigin": "Origin",
+    "ordersTitle": "Orders raised",
+    "winnerTotal": "Chosen total: {{value}}",
+    "notCheapest": "not the lowest total",
+    "winnerNoteLabel": "Justification for the choice",
+    "openTitle": "Open a quote",
+    "openConfirm": "Open round",
+    "objectLabel": "Quote scope",
+    "daysLabel": "Response deadline (days)",
+    "pickSuppliers": "Invite suppliers",
+    "pickSuppliersHint": "The list holds the suppliers in this category. Suspended ones are not shown here.",
+    "noSuppliers": "No supplier available in this category.",
+    "opened": "Quote opened."
+  },
+
+  "map": {
+    "title": "Comparison map",
+    "subtitle_one": "{{count}} supplier competing",
+    "subtitle_other": "{{count}} suppliers competing",
+    "scrollHint": "Scroll sideways to see every column",
+    "item": "Item",
+    "lead_one": "{{count}} day",
+    "lead_other": "{{count}} days",
+    "noTerms": "no terms given",
+    "coverageFull": "Quoted every item",
+    "coveragePartial": "Partial proposal: {{covered}} of {{total}} items",
+    "winner": "Winner",
+    "lineTotal": "Total {{value}}",
+    "bestPrice": "Lowest price for this item",
+    "overBest": "{{pct}}% above the lowest",
+    "noBid": "not quoted",
+    "total": "Proposal total",
+    "cheapest": "Lowest total",
+    "diffToCheapest": "{{value}} more than the lowest",
+    "incompleteTotal": "Total not comparable: items missing",
+    "choose": "Choose winner",
+    "legendBest": "Lowest price for the item",
+    "legendWinner": "Winning proposal",
+    "savingsFinal": "Savings achieved",
+    "savingsPreview": "Possible savings",
+    "savingsFormula": "{{high}} (highest total) minus {{chosen}}",
+    "noSuppliers": "No proposal recorded in this round."
+  },
+
+  "winner": {
+    "title": "Choose the winner",
+    "chosenTotal": "Chosen total",
+    "cheapestTotal": "Lowest total in the round",
+    "leadTerms": "Lead time and terms",
+    "cheapestHint": "This is the lowest total. The justification is optional.",
+    "notCheapestHint": "This proposal costs {{value}} more than the lowest total. A justification is required.",
+    "notCheapestHintPlain": "This is not the lowest total. A justification is required.",
+    "noteRequired": "Justification for the choice",
+    "noteOptional": "Note (optional)",
+    "notePlaceholder": "Lead time, warranty, delivery history, freight included…",
+    "noteError": "Write why this proposal was chosen.",
+    "confirm": "Confirm winner",
+    "success": "Winner set and round closed.",
+    "noteRequiredToast": "Choosing anyone other than the cheapest ({{name}} has the lowest total) requires a justification.",
+    "noBidToast": "This supplier did not record a proposal in this round."
+  },
+
+  "invite": {
+    "invitedTitle_one": "Invited ({{count}})",
+    "invitedTitle_other": "Invited ({{count}})",
+    "invitedEmpty": "No supplier invited yet.",
+    "responded": "answered",
+    "waiting": "waiting for a proposal",
+    "remove": "Remove",
+    "removed": "Supplier removed from the round.",
+    "addTitle": "Add a supplier",
+    "searchPlaceholder": "Search by name or tax ID",
+    "emptyTitle": "No supplier available",
+    "emptyDesc": "Every supplier in this category has already been invited.",
+    "add": "Invite",
+    "added": "Supplier invited.",
+    "block": {
+      "suspenso": "{{name}} is suspended and cannot be invited until the registration is back in order.",
+      "ja-convidado": "{{name}} is already on the invite list for this round.",
+      "categoria": "{{name}} does not serve this quote's category."
+    }
+  },
+
+  "orders": {
+    "title": "Orders",
+    "subtitle": "Issued orders, delivery deadlines and what has already arrived.",
+    "searchPlaceholder": "Search by code or supplier",
+    "showing_one": "{{count}} order",
+    "showing_other": "{{count}} orders",
+    "emptyTitle": "No orders",
+    "emptyDesc": "Close a quote to issue the first order.",
+    "emptyFiltered": "No order matches these filters.",
+    "code": "Order",
+    "supplier": "Supplier",
+    "value": "Value",
+    "due": "Deadline",
+    "receipt": "Receipt",
+    "issuedOn": "issued on {{date}}",
+    "receivedOn": "received on {{date}}",
+    "cancelledLine": "order cancelled",
+    "lateBy_one": "{{count}} day late",
+    "lateBy_other": "{{count}} days late",
+    "dueIn_one": "{{count}} day left",
+    "dueIn_other": "{{count}} days left",
+    "receive": "Receive",
+    "receivedOf": "{{received}} of {{ordered}} received",
+    "rate": "Rate",
+    "rerate": "Re-rate",
+    "rated": "Rating recorded.",
+    "rateTitle": "Rate the order",
+    "rateHint": "The supplier's score is the average of the ratings of received orders.",
+    "rateOnlyReceived": "Only a fully received order can be rated.",
+    "ratingLabel": {
+      "1": "Well below what was agreed",
+      "2": "Below what was agreed",
+      "3": "As expected",
+      "4": "Above expectations",
+      "5": "Exemplary delivery"
+    }
+  },
+
+  "receive": {
+    "title": "Record a receipt",
+    "subtitle": "{{code}} · due {{date}}",
+    "item": "Item",
+    "ordered": "Ordered",
+    "already": "Received",
+    "pending": "Outstanding",
+    "now": "Receive now",
+    "confirm": "Record",
+    "hint": "Each line accepts at most the outstanding balance. The order is only received once every line closes its quantity.",
+    "success": "Receipt recorded.",
+    "overPending": "{{item}}: the outstanding balance is {{pending}} and you entered {{given}}."
+  },
+
+  "rating": {
+    "none": "no rating",
+    "from_one": "from {{count}} order",
+    "from_other": "from {{count}} orders"
+  },
+
+  "suppliers": {
+    "title": "Suppliers",
+    "subtitle": "Registration, documents, status and the score computed from received orders.",
+    "searchPlaceholder": "Search by name or tax ID",
+    "showing_one": "{{count}} supplier",
+    "showing_other": "{{count}} suppliers",
+    "emptyTitle": "No suppliers",
+    "emptyDesc": "Registrations sent through the portal show up here.",
+    "emptyFiltered": "No supplier matches these filters.",
+    "rating": "Score",
+    "volume": "Purchased",
+    "since": "Registered on",
+    "expiredDocs_one": "Expired document: {{list}}",
+    "expiredDocs_other": "Expired documents: {{list}}",
+    "open": "Open record",
+    "approve": "Approve supplier",
+    "approved": "{{name}} approved.",
+    "suspend": "Suspend",
+    "suspended": "{{name}} suspended.",
+    "reinstate": "Reinstate registration",
+    "reinstated": "{{name}} is back in the approval queue.",
+    "suspendedNote": "A suspended supplier cannot be invited to new quotes.",
+    "contact": "Contact",
+    "categoriesTitle": "Categories served",
+    "docsTitle": "Documents",
+    "noDocs": "No document attached.",
+    "docExpired_one": "expired {{count}} day ago",
+    "docExpired_other": "expired {{count}} days ago",
+    "docValid": "valid until {{date}}",
+    "docsWarning": "Renew the documents to start receiving invitations again.",
+    "ordersTitle_one": "Order ({{count}})",
+    "ordersTitle_other": "Orders ({{count}})",
+    "volumeLine": "Total purchased: {{value}}",
+    "noOrders": "No order issued to this supplier.",
+    "ratingExplain": "The score is the average of the ratings of received orders — never a typed-in field."
+  },
+
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Profile, company details, signing limits, cost centres and appearance.",
+    "tabProfile": "Profile",
+    "tabCompany": "Company",
+    "tabLimits": "Signing limits",
+    "tabCenters": "Cost centres",
+    "tabAppearance": "Appearance",
+    "name": "Name",
+    "email": "Email",
+    "role": "Job title",
+    "saved": "Changes saved.",
+    "legalName": "Legal name",
+    "cnpj": "Tax ID",
+    "phone": "Phone",
+    "address": "Address",
+    "quoteDays": "Default quote deadline",
+    "quoteDaysHint": "Days a supplier has to answer.",
+    "minBids": "Minimum proposals",
+    "minBidsHint": "Below this the purchase needs a justification.",
+    "limitsHint": "The signing limit is the highest value a member approves alone. Above it, the requisition moves to the next level.",
+    "actingMember": "Signing as",
+    "actingHint": "This sets whose signing limit the approval screens use.",
+    "member": "Member",
+    "roleColumn": "Level",
+    "limit": "Signing limit",
+    "noLimit": "does not approve",
+    "centersHint": "Committed spend adds the approved or out-for-quote requisitions to the issued orders.",
+    "budget": "Budget for the year",
+    "committedNow": "Committed today: {{value}}",
+    "darkMode": "Dark mode",
+    "darkModeHint": "Applies to the portal and to the purchasing area.",
+    "language": "Language",
+    "privacy": "Privacy",
+    "privacyHint": "Review the portal's cookie preferences.",
+    "reviewCookies": "Review cookies",
+    "resetTitle": "Restore demo data",
+    "resetHint": "Puts requisitions, quotes, orders and suppliers back to their starting state.",
+    "reset": "Restore data",
+    "resetDone": "Data restored."
+  },
+
+  "notFound": {
+    "title": "Page not found",
+    "desc": "This address does not exist or the content has moved. Go back to the portal or to the purchasing area.",
+    "home": "Go to the portal",
+    "dashboard": "Go to purchasing"
+  }
+}
